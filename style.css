@@ -61,7 +61,8 @@ img {
         left: 22px;
     }
 }
-.mouth{
+
+.mouth {
     background: white;
     width: 100px;
     height: 50px;
@@ -72,10 +73,11 @@ img {
     padding-top: 10px;
     padding-left: 70px;
 }
-.tounge{
+
+.tounge {
     background: #e17979;
     height: 50px;
     width: 100px;
-    position: ;
+    right: 20px;
     border-radius: 50%;
 }
