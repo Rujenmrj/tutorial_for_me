@@ -1,0 +1,100 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.face {
+    height: 500px;
+    width: 500px;
+    background: #e6bf99;
+    border-radius: 50%;
+}
+
+
+.socket {
+    margin-left: 100px;
+    float: left;
+    height: 80px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+}
+
+.eye {
+    background: #000;
+    padding-top: 15px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    border-radius: 50%;
+    animation: eye_movement 5s infinite 0.2s alternate linear;
+}
+
+
+@keyframes eye_movement {
+
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        left: 22px;
+    }
+
+    35% {
+        left: 22px;
+    }
+
+    50% {
+        left: 50px;
+    }
+
+    75% {
+        left: 22px;
+    }
+
+    100% {
+        left: 22px;
+    }
+}
+
+.mouth {
+    background: rgb(239, 175, 175);
+    width: 100px;
+    height: 50px;
+    border-radius: 0%0%50%50%;
+    position: relative;
+    top: 300px;
+    left: 170px;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.tounge {
+    background: #e17979;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    right: 60px;
+    border-radius: 50%50%30%30%;
+    animation: tounge_movement 5s infinite 0.2s alternate linear;
+
+}
+@keyframes tounge_movement {
+    0%{
+        padding-bottom: 0px;
+        border-radius: 50% 50% 30% 30%;
+    }
+    50%{
+        padding-bottom: 50px;
+        border-radius: 50% 50% 90% 90%;
+    }
+    100%{
+        padding-bottom: 0px;
+        border-radius: 50% 50% 30% 30%;
+    }
+}
